@@ -1,0 +1,790 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/social.css">
+    <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <script src="js/app.js"></script> -->
+    <title>SocialCaseStudy</title>
+    <script src="https://kit.fontawesome.com/4885d054c5.js" crossorigin="anonymous"></script>
+    
+  </head>
+  <body>
+    
+    <!-- -----------------------------------------Navigation------------------------------- -->
+    <section class="nav-bar Nastaleeq">
+        <div class="nav-container ">
+            <div class="brand">
+                <a class="ims" href=""><img class="logo" src="assets/logo.png"></a>
+            </div>
+            <nav>
+                <div class="nav-mobile"><a id="nav-toggle" href="#!"><span></span></a></div>
+
+                <ul class="nav-list">
+                    <li >
+                        <a  href="index.html" style="font-family: Pacifico;">Home</a>
+                    </li>
+                    <li>
+                        <a  href="chronicles.html" style="font-family: Pacifico; margin-top: -2px;">Chronicles /<span class="Nastaleeq"
+                                style=" font-weight: bolder;"> سلسلۂ داستان</span></a>
+                        <ul class="nav-dropdown">
+                            <li>
+                                <a href="#" style="font-weight: bolder;">صحابہ</a>
+                            </li>
+                            <li>
+                                <a href="mashaheerIslam.html" style="font-weight: bolder;">داستان مشاہیراسلام</a>
+                            </li>
+                            <li>
+                                <a href="#" style="font-weight: bolder;">تاریخ اسلام</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="active1" href="SocialCaseStudy.html" style="font-family: Pacifico;">Social Case Studies</a>
+                        <!-- <ul class="nav-dropdown">
+                            <li>
+                                <a href="#">Education</a>
+                            </li>
+                            <li>
+                                <a href="#">Medical</a>
+                            </li>
+
+
+                        </ul> -->
+                    </li>
+
+                    <li>
+                        <a href="Tadreeb.html" style=" font-weight: bolder; margin-top: -2px;">تدریب و تدبر</a>
+                        <ul class="nav-dropdown">
+                            <li>
+                                <a href="#" style="font-weight: bolder;">اسلام پراعتراضات</a>
+                            </li>
+                            <li>
+                                <a href="QuranSayAsbaaq.html" style="font-weight: bolder;">قرآن سے
+                                    اسباق</a>
+                            </li>
+                            <li>
+                                <a href="#" style="font-weight: bolder;"> تاریخ اسلامی سے
+                                    اسباق</a>
+                            </li>
+                            <li>
+                                <a href="#" style="font-family:kasheeda ;font-weight: bolder;">کتب</a>
+                            </li>
+
+                        </ul>
+                    </li>
+
+
+
+                    <li>
+                        <a href="storyTelling.html" style="font-family: Pacifico;"> <span
+                                style="font-family:kasheeda ; font-weight: bolder;">اطفال</span> resource center</a>
+                        <ul class="nav-dropdown">
+                            <li><a href="storyTelling.html" style="font-family: Pacifico;">Story Telling</a></li>
+                            <li><a href="#" style="font-family: Pacifico;">Clubs</a></li>
+                            <li><a href="#" style="font-family: Pacifico;">Literature</a></li>
+                            <li><a href="#" style="font-family: Pacifico;">Activities</a></li>
+                            <li><a href="#" style="font-family: Pacifico;">Resource place</a></li>
+
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="islamicmovement.html" style="font-family: Pacifico;">Case Study of Islamic Movements</a>
+                        <!-- <ul class="nav-dropdown">
+                            <li><a href="#" style="font-family:kasheeda ;font-weight: bolder;">اخوان المسلمون </a></li>
+                            <li><a href="#" style="font-family:kasheeda ;font-weight: bolder;">جماعت اسلامی</a></li>
+
+                        </ul> -->
+                    </li>
+
+                    <li>
+                        <a href="Understanding.html" style="font-family: Pacifico;">Understanding 'isms'</a>
+                        <ul class="nav-dropdown">
+                            <li><a href="#" style="font-family: Pacifico;">Socialism</a></li>
+                            <li><a href="#" style="font-family: Pacifico;">Secularism</a></li>
+                            <li><a href="#" style="font-family: Pacifico;">Liberalism</a></li>
+                            <li><a href="#" style="font-family: Pacifico;">Communism</a></li>
+                            <li><a href="#" style="font-family: Pacifico;">Capitalism</a></li>
+
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="#aboutus" style="font-family: Pacifico; ">About Us</a>
+                    </li>
+                </ul>
+
+            </nav>
+        </div>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="function.js"></script>
+
+
+
+
+    <script>
+        (function ($) {
+            $(function () {
+                $('nav ul li a:not(:only-child)').click(function (e) {
+                    $(this).siblings('.nav-dropdown').toggle();
+                    $('.dropdown').not($(this).siblings()).hide();
+                    e.stopPropagation();
+                });
+                $('html').click(function () {
+                    $('.nav-dropdown').hide();
+                });
+                $('#nav-toggle').click(function () {
+                    $('nav ul').slideToggle();
+                });
+                $('#nav-toggle').on('click', function () {
+                    this.classList.toggle('active');
+                });
+            });
+        })(jQuery);
+    </script>
+
+    <!-- ---------------------------------------Navigation----------------------------- -->
+
+
+
+
+
+
+
+
+    <section class="container">
+        <div class="site-content">
+
+            <aside class="sidebar">
+                <!-- <div class="category">
+                    <h2>Category</h2>
+                    <ul class="category-list">
+                        <li class="list-items ">
+                            <a href="#" style="font-family: Pacifico;">Social Case Studies</a>
+
+                            <span> <i class="fas fa-angle-double-right"></i> </span>
+
+                        </li>
+                        <li class="list-items Nastaleeq">
+                            <a href="#" style="font-weight: bolder;">قرآن اور تاریخ اسلامی سے
+                                اسباق</a>
+                            <span> <i class="fas fa-angle-double-right"></i> </span>
+                        </li>
+                        <li class="list-items ">
+                            <a href="#" style="font-family: Pacifico;">Story Telling</a>
+                            <span> <i class="fas fa-angle-double-right"></i> </span>
+                        </li>
+                        <li class="list-items Nastaleeq">
+                            <a href="#" style="font-weight: bolder;">داستان مشاہیراسلام</a>
+                            <span> <i class="fas fa-angle-double-right"></i> </span>
+                        </li>
+                        <li class="list-items">
+                            <a href="#" style="font-family: Pacifico;">Secularism</a>
+                            <span> <i class="fas fa-angle-double-right"></i> </span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="popular-post">
+                    <h2>Popular Post</h2>
+                    <div class="post-content margin">
+                        <div class="post-image">
+                            <div>
+                                <img src="./assets/sultan.jpg" class="img" alt="blog1">
+                            </div>
+                            <div class="post-info flex-row">
+                                <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;May 30,
+                                    2020</span>
+                                <span></span>
+                            </div>
+                        </div>
+                        <div class="post-title">
+                            <a href="#">Sultah Muhammad Fateh who conquered Istanbul</a>
+                        </div>
+                    </div>
+                    <div class="post-content margin">
+                        <div class="post-image">
+                            <div>
+                                <img src="./assets/imam-ibn-taymiyyah.jpg" class="img" alt="blog1">
+                            </div>
+                            <div class="post-info flex-row">
+                                <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;January 26,
+                                    2020</span>
+
+                            </div>
+                        </div>
+                        <div class="post-title">
+                            <a href="#">Imam-Ibn-Taymiyyah</a>
+                        </div>
+                    </div>
+                    <div class="post-content margin">
+                        <div class="post-image">
+                            <div>
+                                <img src="./assets/imam-ghazali.jpg" class="img" alt="blog1">
+                            </div>
+                            <div class="post-info flex-row">
+                                <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;April 18,
+                                    2020</span>
+
+                            </div>
+                        </div>
+                        <div class="post-title">
+                            <a href="#">Imam Ghazali Rehmat Ullah Alaih</a>
+                        </div>
+                    </div>
+                    <div class="post-content margin">
+                        <div class="post-image">
+                            <div>
+                                <img src="./assets/post-2.jpeg" class="img" alt="blog1">
+                            </div>
+                            <div class="post-info flex-row">
+                                <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;Febraury 07,
+                                    2020</span>
+
+                            </div>
+                        </div>
+                        <div class="post-title">
+                            <a href="#">Islam and Darwin</a>
+                        </div>
+                    </div>
+                    <div class="post-content margin">
+                        <div class="post-image">
+                            <div>
+                                <img src="./assets/Secularism.png" class="img" alt="blog1">
+                            </div>
+                            <div class="post-info flex-row">
+                                <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;March 28,
+                                    2020</span>
+
+                            </div>
+                        </div>
+                        <div class="post-title">
+                            <a href="#">Secularism</a>
+                        </div>
+                    </div>
+
+                </div>
+                
+                <h2>Search</h2>
+                
+                <div class="input-group margin">
+
+
+
+                    <input type="search" class="form-control" placeholder="Search">
+                    <div class="input-group-append">
+                        <button class="btn btn-secondary" type="button">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                </div>
+                <div class="popular-tags">
+                    <h2>Popular Tags</h2>
+                    <div class="tags margin flex-row">
+                        <span class="tag Nastaleeq">امام ابن تیمیہ</span>
+                        <span class="tag Nastaleeq">امام غزالی</span>
+                        <span class="tag Nastaleeq">سید احمد شہید</span>
+                        <span class="tag">Philosophy of Islam</span>
+                        <span class="tag Nastaleeq">سلطان محمد فاتح</span>
+                        <span class="tag">lifestyle</span>
+                        <span class="tag">Design</span>
+                        <span class="tag">project</span>
+                    </div>
+                </div> -->
+
+
+            </aside>
+
+
+
+
+
+            <div class="postmain">
+                
+                
+                <div class="post Nastaleeq">
+                    <img class="s-post1" src="./assets/post-2.jpeg" alt="post-1">
+                    <br>
+                    <br>
+                    <br>
+                    <div style="text-align: right;">
+                        
+                           
+                            <h1 class="center" style="font-weight: bold; ">ڈارون کے نظرئہ ارتقا اور اسلامی فکر میں فرق</h1>
+                         
+                            <br>
+                            <br>
+                            <br>
+                            <p class="Nastaleeq" style="direction: rtl; font-size: 20px; text-align: right;">
+                            ڈارون کے نظریہ ارتقا کے کچھ بنیادی نکات جو اس کی کتب On the Origin Of Species  اور The Decent Of Men   میں
+                            لکھے ہیں، نے فلسفہ و اخلاق، تہذیب و تمدن کی دنیا میں جو انتشار و فساد برپا کیا ہے اس کا ایک مختصر جائزہ
+                            درج ذیل ہے۔
+                            <br>
+                            <br>
+                            <span style="font-weight: bold; direction: rtl; font-size: 25px !important;">وسائلِ معاش کی قلت کا خطرہ</span>
+                            <br>
+                            ڈارون کے نظریے کے مطابق اس دنیا میں ریسورسز جیسا کہ وسائلِ معاش اور جگہ محدود ہیں۔اسی بنیاد پر مغرب میں
+                            یہ
+                            سوچ پیدا ہوئی کہ اس زمین میں ایک اچھے معیارِ زندگی کے ساتھ زیادہ سے زیادہ ایک مخصوص تعداد میں لوگ زندگی
+                            گزار
+                            سکتے ہیں۔اگر آبادی اس سے بڑھی تو معیارِ زندگی گرتا چلا جائے گا اور بھلے آدمیوں کی طرح زندگی گزارنا مشکل
+                            ہوتا
+                            چلا جائے گا۔ اسی تخیل کو اس سے کچھ عرصہ قبل اٹھارویں صدی کے آخر میں انگلستان کے ماہرِ معاشیات مالتھس
+                            Malthus
+                            نے بھی پیش کیا تھا۔ اگر موجودہ دور کا جائزہ لیا جائے تو یہ تخیل فیملی پلاننگ اوربرتھ کنٹرول کی تحاریک
+                            میں
+                            نمایاں بلکہ بنیاد کا کردار ادا کرتانظر آتا ہے۔ ان تحاریک کے علم بردار وسائل کے محدود ہونے کے تصور کو
+                            بطورِحجت پیش کرتے ہیں۔اگر جائزہ لیں تو یہ تخیل در اصل خدا کے انتظام پر نکتہ چینی ہے۔ جس بات کو یہ لوگ
+                            خود
+                            حساب لگا کر قدرِ آسانی سے معلوم کر سکتے ہیں، ان کا گمان ہے کہ خدا اس سےبے خبر ہے۔ وہ نہیں جانتا کہ زمین
+                            میں
+                            کس قدر گنجائش ہے اور انسان کس حد تک سما سکتے ہیں۔
+                            <br>
+                            <br>
+                            <span style="font-weight: bold; direction: rtl;">اِنَّا كُلَّ شَيْءٍ خَلَقْنٰهُ بِقَدَرٍ (القمر : ۴۹)
+                            </span>
+                            <br>
+            
+                            <span style="font-weight: bold; direction: rtl;">ترجمہ:بیشک ہم نے ہرچیز کو ایک ( مقررہ ) اندازےپر پیدا
+                                کیا
+                                ہے ۔ </span>
+                            <br>
+                            <br>
+                            <span style="font-weight: bold; direction: rtl;">وَاِنْ مِّنْ شَيْءٍ اِلَّا عِنْدَنَا خَزَاۗىِٕنُهٗ ۡ
+                                وَمَا
+                                نُنَزِّلُهٗٓ اِلَّا بِقَدَرٍ مَّعْلُوْم (سورۃ الحجر: ۲۱) </span>
+                            <br>
+                            <span style="font-weight: bold; direction: rtl;">ترجمہ: اور جتنی بھی چیزیں ہیں ان سب کے خزانے ہمارے پاس
+                                ہیں
+                                ، اور ہم ہرچیز کو اس کے مقررہ انداز سے اتارتے ہیں ۔</span>
+                            <br>
+                            <br>
+                            <span style="font-weight: bold; direction: rtl;">وَمَا كُنَّا عَنِ الْخَلْقِ غٰفِلِيْنَ (سورۃالمومنون:
+                                ۲۱)</span>
+                            <br>
+                            <span style="font-weight: bold; direction: rtl;"> ترجمہ: اور ہم مخلوقات سے غافل نہیں ہیں ۔</span>
+                            <br>
+                            <br>
+                            ان نادانوں کو معلوم نہیں کہ اللہ تعالی نے ہر چیز کو ایک اندازے سے پیدا کیا ہے۔ اس کے خزانوں سے جو چیز
+                            بھی
+                            نازل ہوتی ہے ایک جچے تلے اندازے پر ہوتی ہے۔ ان کا گمان خواہ کچھ ہومگر حقیقت یہ ہے کہ جس ہستی نے اس عالم
+                            کو
+                            پیدا کیا ہے وہ تخلیق و افزائش کے فن میں اناڑی نہیں ہے۔ اگر اس کے کاموں کو بصیرت کی آنکھوں سے دیکھتے اور
+                            اس
+                            کے انتظام پر غورکرتے تو ان پر خود ہی روشن ہو جاتا کہ وہ اپنے اندازے اور حساب میں ان سے زیادہ کامل ہے۔اس
+                            نے
+                            اسی محدود رقبۂ زمین پراپنی مخلوق کی بیشمار انواع Species پیدا کی ہیں جن میں سے ہر ایک کے اندر توالد و
+                            تناسلReproduction کی ایسی زبردست قوت ہے کہ اگر صرف ایک ہی نوع بلکہ بعض انواع کے صرف ایک ہی جوڑے کی نسل
+                            کو وہ
+                            پوری قوت کے ساتھ بڑھنے دے تو ایک قلیل مدت میں تمام روئے زمین صرف اسی کی نسل سے پٹ جائے، اور کسی دوسری
+                            نسل کے
+                            لئے ذرہ برابرجگہ باقی نہ رہے۔ مثال کے طور پر نباتات کی ایک قسم ہے جس کو Sisymbrium sophia کہتے ہیں۔اس
+                            نوع کے
+                            ہر فردمیں عموماً ساڑھے سات لاکھ بیج ہوتے ہیں۔ اگر صرف ایک پودے کے سب بیج زمین میں اُگ جائیں اور تین سال
+                            تک
+                            ان کی نسل بڑھتی رہے تو زمین میں دوسری چیزوں کے لئے چپہ بھی باقی نہ رہے۔ ایک قسم کی مجھلی Starfish کروڑوں
+                            انڈےدیتی ہے۔ اگر اس کے صرف ایک فرد کو اپنی پوری نسل بڑھانےکا موقع مل جائے تو تیسری چوتھی پشت تک پہنچتے
+                            پہنچتے تمام دنیا کے سمندر اسی سے لبالب بھر جائیں اور ان میں پانی کے ایک قطرے کی بھی گنجائش باقی نہ رہے۔
+                            دور
+                            کیوں جائیے۔ خودانسان ہی کی قوتِ تناسل کو دیکھ لیجئے۔ ایک مرد کے جسم سے ایک وقت میں جو مادّہ خارج ہوتا
+                            ہےاس
+                            سے لاکھوں عورتیں حاملہ ہو سکتی ہیں۔ اگر صرف ایک ہی مرد کی پوری استعداد تناسل کو قوت سے فعل میں آنے کا
+                            موقع
+                            مل جائے تو چند سال میں ساری زمین اس کی اولاد سےکھچا کھچ بھر جائے۔ مگر وہ کون ہے جو ہزاروں لاکھوں سال سے
+                            زمین
+                            پر ان بےشمار انواع کوزبردست قوتِ تناسل کے ساتھ پیدا کر رہا ہے اور کسی نوع کواس کی مقرر و مقدر حد سے آگے
+                            نہیں
+                            بڑھنے دیتا؟ کیا وہ انسانوں کی سائنٹفک تدبیریں ہیں؟ کیا ان انواع میں بھی فیملی پلیننگ اور برتھ کنٹرول کی
+                            تنظییں متحرک ہیں؟ یا یہ سب خدا کی حکمت ہے؟یہ خدا ہی تو ہے جو اپنے خزانے میں سے قسم قسم کی مخلوق نکال رہا
+                            ہے
+                            اور ٹھیک حساب سے نکال رہا ہے کہ ان میں نہ کبھی افراط ہوتی ہے نہ تفریط۔اگر انسان اپنے خالق کی نشانیوں پر
+                            غور
+                            کرے تو وہ کبھی اس کے انتظام میں دخل دینے کی جرت نہ کرے۔ یہ سب جاہلانہ اوہام ہیں جو محض اس وجہ سے
+                            پیداہوتے
+                            ہیں کے لوگ آفاق اور خود اپنے نفس میں اپنے رب کی نشانیوں کو نہیں دیکھتے۔ ان کو ابھی تک معلوم نہیں ہوا کہ
+                            انسانی سعی و عمل کی حد کہاں تک ہے اور کس حد پر پہنچ کے خالص خدائی انتظامات شروع ہو جاتےہیں جن میں دخل
+                            دینا
+                            تو درکنار سمجھنے پر بھی انسان قادر نہیں ہے۔
+                            <br>
+                            <br>
+                            <span style="font-weight: bold; direction: rtl;">وَمَا مِنْ دَاۗبَّةٍ فِي الْاَرْضِ اِلَّا عَلَي اللّٰهِ
+                                رِزْقُهَا وَيَعْلَمُ مُسْتَــقَرَّهَا وَمُسْـتَوْدَعَهَا ۭ كُلٌّ فِيْ كِتٰبٍ مُّبِيْنٍ (سورۃ الھود::
+                                ۶)
+            
+                            </span>
+                            <br>
+                            <span style="font-weight: bold; direction: rtl;">ترجمہ: زمین میں چلنے والا کوئی جاندار ایسا نہیں ہے جس
+                                کا
+                                رزق اللہ کے ذمّے نہ ہو اور جس کے متعلق وہ نہ جانتا ہو کہ کہاں رہتا ہے اور کہاں سونپا جاتا ہے۔ سب کچھ
+                                ایک
+                                صاف دفتر میں درج ہے۔ </span>
+                            <br>
+                            <br>
+                            لہذابحیثیتِ مسلمان یہ سوچنا بھی بیوقوفی ا ہے کہ اگر آبادی میں اضافہ ہوا تو وسائلِ معاش کی قلت ہو جائے
+                            گی۔ ان
+                            واضح آیات کے بعد بھی اگرکوئی ڈارون یا مالتھس کے اس نظریہ کا پرچار کرے تو یہ خدا کی قدرت اور اس کے انتظام
+                            میں
+                            شک کے سوا کچھ نہیں۔یہ ڈارون کے نظریۂ ارتقا کا پہلا نکتہ تھا جو عقل اور اسلام سے متصادم محض تخیلات کی
+                            بنیاد
+                            پر کھڑا ، نظام ِ زندگی میں انتشار کا ذریعہ بن رہا ہے۔
+                            <br>
+                            <br>
+                            <span style="font-weight: bold; direction: rtl;font-size: 25px;">کائنات۔۔۔۔ایک رزم گاہ</span>
+                            <br>
+                            
+                            ڈارون کائنات میں موجود جانداروں کی زندگیوں پر نظر ڈال کر اس نتیجے پر پہنچا کہ یہ کائنات ایک رزم گاہ
+                            Battlefield ہےجس میں ہر جاندار دوسرے جاندار کے ساتھ اپنے بقا کی جنگ Struggle For Existance لڑ رہا
+                            ہے۔نظام ِ
+                            فطرت ہےہی کچھ ایسا کہ جسے زندہ اور باقی رہنا ہو، اسے نزاع اور کش مکش اور مزاحمت کرنی پڑتی ہے اور مزاجِ
+                            فطرت
+                            واقع ہی کچھ اس طرح ہوا ہے کہ اس کی نگاہ میں وہی بقا کا مستحق ہے جو قوتِ بقا کا ثبوت دےدے Survival Of The
+                            Fittest ۔ اس بے رحم نظام میں جو فنا ہوتا ہے وہ اس لئے فنا ہوتا ہے کہ وہ کمزور ہے اور اسے فنا ہونا ہی
+                            چاہئے
+                            اور جو باقی رہتا ہے وہ اس لئے باقی رہتا ہے کہ وہ طاقت ور ہے اور اسے باقی ہی رہنا چاہئے۔زمین اور اس کا
+                            ماحول
+                            اور اس کے وسائلِ زندگی غرض یہاں جو کچھ ہے طاقتور کا حق ہے، جس نےزندہ رہنے کی قابلیت کا ثبوت دیا ہے،
+                            کمزور کا
+                            ان چیزوں پر کوئی حق نہیں ہے۔ اسے طاقت ور کے لئے جگہ خالی کرنی چاہئے اور طاقت ور سراسرِ حق ہے اگر وہ اسے
+                            مٹا
+                            کر یا ہٹا کر اس کی جگہ لے لیتا ہے۔غور کیجئے یہ تصور کائنا ت جب دماغوں میں بیٹھ جائے اور نظامِ فطرت کو اس
+                            نگاہ سے دیکھا جانے لگےتو انسان انسان کے لئے کیا کچھ بن کر رہے گا؟ اس فلسفۂ زندگی میں ہمدردی، محبتِ رحمِ
+                            ایثار اور اس طرح کے دوسرےشریفانہ انسانی جذبات کے لئے کیا جگہ ہو سکتی ہے؟ اس میں عدل و انصاف،امانت و
+                            دیانت
+                            اور صداقت و راست بازی کیا کیا کام؟ اس میں حق کا وہ مفہوم کہاں باقی رہتا ہے جو کبھی کمزور کو بھی پہنچ
+                            سکتا
+                            ہو، اور ظلم کے وہ معنی کب ہو سکتے ہیں جن سے کبھی طاقتور بھی گناہ گار ٹھہرایا جا سکتا ہو؟ لڑنے جھگڑنے کا
+                            کام
+                            اگرچہ پہلے بھی انسان کرتا رہا ہے مگر اسے فساد سمجھا جاتا تھا اور اب وہ عین تقاضائے فطرت ہے کیونکہ کائنات
+                            تو
+                            ہے ہی ایک میدانِ جنگ، ظلم پہلے بھی دنیا میں ہوتا تھا مگر پہلے وہ ظلم تھا اور اب اسے ایک ایسی منطق مل گئی
+                            جس
+                            سے وہ طاقتور کا حق بن گیا۔اسی تصور کی ایک جھلک موجودہ نظام ِ سرمایہ داری میں نظر آتی ہے جہاں دولت بتدریج
+                            سمٹ
+                            کرچند سرمایہ داروں کے ہاتھوں میں آگئی اور غریب اور مزدور اپنی جائیداد اور دولت غرض سب کچھ سے محروم ہو
+                            گئے۔
+                            اس سے سرمایہ داروں کو مزدور حاصل کرنے میں بڑی آسانی ہوئی جن کی محنت کے طفیل ان کی دولت اور تجارت میں بے
+                            پناہ
+                            اضافہ ہوا۔ اس کے باوجود مزدور کی اجرت بس اسےزندہ رکھنے کے لئے کافی ہوتی ہے جبکہ ان کی محنت کا جو نفع
+                            حاصل
+                            ہوتا ہے وہ ان سرمایہ دار آقاؤں کی عیاشیوں اوربد مستیوں میں خرچ ہو جاتا ہے۔ بجائے اس کے کہ مزدور، جو
+                            اشتراکیوں کے نزدیک مادی پیداوار میں اضافے کے اصل ذمیدار ہوتے ہیں، کو منافع میں حصہ دیا جائے، سرمایہ داری
+                            نظام کے حامی سرمایہ دار کو مزدور کی حق تلفی میں حق بجانب سمجھتے ہیں کیونکہ سرمایہ دار کے پاس طاقت ہے،
+                            سرمائے
+                            کی طاقت اور اس کا یہ عمل بقول ڈارون کے، فطرت کے اصولوں کے عین مطابق ہے۔اس کے مقابلے میں اسلام نہ صرف یہ
+                            کہ
+                            مزدور کو مالک کے ساتھ منافع میں حقدار سمجھتا ہے بلکہ قانونِ وراثت، فریضۂ زکوٰۃ اور حرمتِ جوا و سود کے
+                            ذریعے
+                            زر اندوزی اور غربت کا خاتمہ کرتا۔ساتھ ہی اسلام اس سلسلے میں صرف اچھے اچھے قوانین بنا دینے کو ہی کافی
+                            نہیں
+                            سمجھتا بلکہ ان کےساتھ ساتھ وہ انسان کے اخلاقی اور روحانی جذبات کو بھی اپیل کرتا ہے۔اسلام اپنےاخلاقی
+                            قوانین
+                            کے ذریعے عیاشی و لذت پرستی کو ممنوع قرار دیتا ہے ساتھ ہی مالکوں کواپنے ملازمین کے ساتھ انصاف کی تلقین
+                            اور
+                            جائز معاوضوں میں کمی سے روکتا ہے۔اسلام لوگوں کے اندر خدا کی راہ میں مال خرچ کرنے کا جذبہ ابھارنا چاہتا
+                            ہے۔
+                            جس سے معاشرے میں خوشحال لوگ اس طرح خدا کی خاطر دوسروں پر خرچ کرتے رہتے ہیں کہ وہاں غربت اور محرومی باقی
+                            ہین
+                            ہیں رہتی۔یہ ڈارون کے نظریۂ ارتقا کا دوسرا نکتہ تھا جو معاشرے میں فساد و شر، ظلم و زیادتی اور آپس میں
+                            نفرت
+                            اور جھگڑے کو فروغ دیتا ہے۔ جو اسلام کے اخلاقی نظام سے شدید متصادم ہے ۔
+                            <br>
+                            <br>
+                            <span style="font-weight: bold; direction: rtl;font-size: 25px;">(Social Animal) انسان۔۔۔ ایک معاشرتی
+                                حیوان</span>
+                            <br>
+                           
+                            ڈارون نے اپنی کتاب On the Origin Of Species میں انسان کے ارتقا پر بات کرنے سے گریز کیا مگرکچھ عرصے بعد
+                            اپنی
+                            دوسری کتاب The Decent Of Men میں یہ سوال اٹھایا کہ کیا انسان بھی دیگر انواع کی طرح کسی دوسری نوع سے
+                            ارتقا کے
+                            بعد وجود میں آیا ہے۔گو کہ یہ محض ایک سوال تھا جس کا جواب مع ثبوت خود ڈارون کے پاس بھی موجود نہ تھا مگر
+                            اس
+                            کےحامیان نے محض اپنی مذہب دشمنی کی بنیار پر نہ صرف اس سوال کو حقیقت مانا بلکہ اس کی بنیاد پر انسان کو
+                            ایک
+                            معاشرتی حیوان سمجھنا شروع کردیا۔یوں انہیں خالق کے انکار کی بنیاد ملی اور جب کوئی خالق ہی نہیں تو کونسا
+                            مذہب
+                            اور کونسے مذہبی قوانین؟ انہوں نے لوگوں کو یہ یقین دلانا شروع کردیا کہ انسان بھی جانوروں میں سے ایک جانور
+                            ہے۔
+                            اس کا نتیجہ یہ نکلا کہ آدم کی اولاد آج پورے اطمینان کے ساتھ اپنی زندگی کے ہر پہلو میں حیوانیت کا برتاؤ
+                            کر
+                            رہی ہے اور اسی کا یہ اثر ہے کہ انسان اپنی زندگی کے قوانین اور اصول کسی برترماخدِ ہدایت میں تلاش کرنے کے
+                            بجائے حیوانات کی زندگی میں تلاش کر رہا ہے(یا زیادہ سے زیادہ ہدایات کے لئے قانونِ طبیعی اور گزشتہ انسانی
+                            تجربات کو ماخذ مان رہا ہے)۔
+                            حیوانات کی زندگی میں اپنے لئے ہدایات تلاشنے سے انسان میں خود غرضی، لذت پرستی، برہنگی، نفس پرستی اور اس
+                            جیسی
+                            بیشماربیماریوں نے جنم لیا جو آج مغربی معاشرے میں بکثرت پائی جاتی ہیں۔ یہی وہ تصور ہے جس نے بہت سے فرسودہ
+                            نعروں کو جنم دیا جیسے؛ جیسے چاہے جی لے، کھالے پی لے جی لے، میرا جسم میری مرضی وغیرہ ۔ان کاپرچار وہی کر
+                            سکتا
+                            ہے جس نے اسلام کے ماخذِ ہدایت یعنی قرآن و حدیث کو ٹھکرا کر جانوروں کی زندگی میں اپنے لئےہدایات تلاش کرنا
+                            شروع کی ہوں کیونکہ انسان کو اللہ تعالی نےبے مقصدمحض کھانے، پینے، تسکینِ نفس اور اپنی نسل کی افزائش کے
+                            لئے
+                            پیدا نہیں فرمایا بلکہ اپنے نائب(خلیفہ) کی حیثیت سے اس دنیامیں بھیجا ہے۔ اور نائب کا یہ کام ہے کہ جس کا
+                            وہ
+                            نائب ہےاس کی اطاعت کرے۔ وہ نہ اپنے آقا کی رعیت پر اپنا حکم چلا سکتا ہےنہ ہی اس کے املاک میں اس کے حکم کے
+                            خلاف کسی قسم کا تصرف کر سکتا ہے۔
+                            <br>
+                            <br>
+                            <span style="font-weight: bold; direction: rtl;">وَاِذْ قَالَ رَبُّكَ لِلْمَلٰۗىِٕكَةِ اِنِّىْ جَاعِلٌ
+                                فِى
+                                الْاَرْضِ خَلِيْفَةً (سورۃ البقرۃ: ۳۰) </span>
+                            <br>
+                            <span style="font-weight: bold; direction: rtl;">ترجمہ: اور جب تیرے رب نے فرشتوں سے کہا کہ میں زمین میں
+                                خلیفہ بنانے والا ہوں۔</span>
+                            <br>
+                            <br>
+                            نائب اور امین خود مختار نہیں ہوتا کہ اپنی مرضی سے جو چاہے کرے، اپنے آقا کے مال اور اس کی رعیت میں جیسا
+                            چاہے
+                            تصرف کرےاور کوئی پوچھنے والا نہ ہو۔ بلکہ وہ اپنے آقا کے سامنے جوابدہ ہوتا ہے ، اس کو پائی پائی کا حساب
+                            دینا
+                            ہوتا ہے، اس کا آقا اسکی ہر حرکت کے متعلق سوال کر سکتا ہے اور اس کی امانت اسکے مال اور اس کی رعیت میں اس
+                            نے
+                            جس طرح تصرف کیا ہے اسکے لئے اس کو ذمہ دار قرار دے کر جزاء اور سزا دے سکتا ہے۔ اب وہ رعیت اس کے اہل و
+                            عیال کی
+                            صورت میں ہو یا وہ مِلک اسکے جسم کی صورت میں، ہر جگہ اسے اپنے آقا کے احکامات کو مدِ نظر رکھنا ہے ورنہ
+                            نتائج
+                            کا ذمہ دار وہ خود ہوگا۔
+                            <br>
+                            <br>
+                            <span style="font-weight: bold; direction: rtl;">فَمَنْ تَبِعَ ھُدَاىَ فَلَا خَوْفٌ عَلَيْهِمْ وَلَا
+                                ھُمْ
+                                يَحْزَنُوْنَ ۳۸ وَالَّذِيْنَ كَفَرُوْا وَكَذَّبُوْا بِاٰيٰتِنَآ اُولٰۗىِٕكَ اَصْحٰبُ النَّا رِ ھُمْ
+                                فِيْهَا خٰلِدُوْنَ (سورۃ البقرۃ: ۳۸۔۳۹)</span>
+                            <br>
+                            <span style="font-weight: bold; direction: rtl;">ترجمہ: جب کبھی تمہارے پاس میری ہدایت پہنچے تو اس کی
+                                تابعداری کرنے والوں پر کوئی خوف و غم نہیں ۔اور جو انکار کر کے ہماری آیتوں کو جھٹلائیں ، وہ جہنمی ہیں
+                                اور
+                                ہمیشہ اسی میں رہیں گے ۔</span>
+                            <br>
+                            <br>
+                            یہ ڈارون کے پیش کردہ نظریہ سے منسلک تیسری خرابی تھی جس نے انسان کو سرے سے اپنامقصدِ حیات بھلا کر جانوروں
+                            کی
+                            سی زندگی کو نمونہ بنانے پر اکسایا ، بدبو دار نظریات اور نعروں کو جنم دیا اور اخلاقیات کی دھجیاں اڑائیں۔
+            
+            
+                        </p>
+                    </div>
+            
+                </div>
+
+
+
+            </div>
+
+            <aside class="sidebar">
+                <div class="category">
+                    <h2>Category</h2>
+                    <ul class="category-list">
+                        <li class="list-items ">
+                            <a href="#" style="font-family: Pacifico;">Social Case Studies</a>
+
+                            <span> <i class="fas fa-angle-double-right"></i> </span>
+
+                        </li>
+                        <li class="list-items Nastaleeq">
+                            <a href="#" style="font-weight: bolder;">قرآن اور تاریخ اسلامی سے
+                                اسباق</a>
+                            <span> <i class="fas fa-angle-double-right"></i> </span>
+                        </li>
+                        <li class="list-items ">
+                            <a href="#" style="font-family: Pacifico;">Story Telling</a>
+                            <span> <i class="fas fa-angle-double-right"></i> </span>
+                        </li>
+                        <li class="list-items Nastaleeq">
+                            <a href="#" style="font-weight: bolder;">داستان مشاہیراسلام</a>
+                            <span> <i class="fas fa-angle-double-right"></i> </span>
+                        </li>
+                        <li class="list-items">
+                            <a href="#" style="font-family: Pacifico;">Secularism</a>
+                            <span> <i class="fas fa-angle-double-right"></i> </span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="popular-post">
+                    <h2>Popular Post</h2>
+                    <div class="post-content margin">
+                        <div class="post-image">
+                            <div>
+                                <img src="./assets/sultan.jpg" class="img" alt="blog1">
+                            </div>
+                            <div class="post-info flex-row">
+                                <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;May 30,
+                                    2020</span>
+                                <span></span>
+                            </div>
+                        </div>
+                        <div class="post-title">
+                            <a href="#">Sultah Muhammad Fateh who conquered Istanbul</a>
+                        </div>
+                    </div>
+                    <div class="post-content margin">
+                        <div class="post-image">
+                            <div>
+                                <img src="./assets/imam-ibn-taymiyyah.jpg" class="img" alt="blog1">
+                            </div>
+                            <div class="post-info flex-row">
+                                <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;January 26,
+                                    2020</span>
+
+                            </div>
+                        </div>
+                        <div class="post-title">
+                            <a href="#">Imam-Ibn-Taymiyyah</a>
+                        </div>
+                    </div>
+                    <div class="post-content margin">
+                        <div class="post-image">
+                            <div>
+                                <img src="./assets/imam-ghazali.jpg" class="img" alt="blog1">
+                            </div>
+                            <div class="post-info flex-row">
+                                <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;April 18,
+                                    2020</span>
+
+                            </div>
+                        </div>
+                        <div class="post-title">
+                            <a href="#">Imam Ghazali Rehmat Ullah Alaih</a>
+                        </div>
+                    </div>
+                    <div class="post-content margin">
+                        <div class="post-image">
+                            <div>
+                                <img src="./assets/post-2.jpeg" class="img" alt="blog1">
+                            </div>
+                            <div class="post-info flex-row">
+                                <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;Febraury 07,
+                                    2020</span>
+
+                            </div>
+                        </div>
+                        <div class="post-title">
+                            <a href="#">Islam and Darwin</a>
+                        </div>
+                    </div>
+                    <div class="post-content margin">
+                        <div class="post-image">
+                            <div>
+                                <img src="./assets/Secularism.png" class="img" alt="blog1">
+                            </div>
+                            <div class="post-info flex-row">
+                                <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;March 28,
+                                    2020</span>
+
+                            </div>
+                        </div>
+                        <div class="post-title">
+                            <a href="#">Secularism</a>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- <br>
+                <br>
+                <br>
+                <br> -->
+                <h2>Search</h2>
+                <!-- <br> -->
+                <div class="input-group margin">
+
+
+
+                    <input type="search" class="form-control" placeholder="Search">
+                    <div class="input-group-append">
+                        <button class="btn btn-secondary" type="button">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                </div>
+                <br><br>
+                <h2>Popular Tags</h2>
+                <div class="popular-tags">
+                    <!-- <h2>Popular Tags</h2> -->
+                    <div class="tags margin flex-row">
+                        <span class="tag Nastaleeq">امام ابن تیمیہ</span>
+                        <span class="tag Nastaleeq">امام غزالی</span>
+                        <span class="tag Nastaleeq">سید احمد شہید</span>
+                        <span class="tag">Philosophy of Islam</span>
+                        <span class="tag Nastaleeq">سلطان محمد فاتح</span>
+                        <span class="tag">lifestyle</span>
+                        <span class="tag">Design</span>
+                        <span class="tag">project</span>
+                    </div>
+                </div>
+
+
+            </aside>
+
+
+        </div>
+
+    </section>
+
+
+
+        <!-- ----------------------------------------------Footer------------------------------------- -->
+
+        <footer class="footer">
+            <div class="container">
+                <div id="aboutus" class="about-us">
+                    <h2>About us</h2>
+                    <p style="color: gray;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium quia atque nemo ad modi officiis
+                        iure, autem nulla tenetur repellendus.</p>
+                </div>
+                <div class="newsletter">
+                    <h2>Email Us</h2>
+                    <p>You can email us</p>
+                    <div class="form-element">
+                        <a class="btn btn-primary mail-btn" href="mailto:info@saylaniwelfare.com">Email Us</a>
+                    </div>
+                </div>
+                <div class="follow">
+                    <h2>Follow us</h2>
+                    <p>Let us be Social</p>
+                    <div>
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-youtube"></i>
+                    </div>
+                </div>
+    
+            </div>
+            <br>
+            <br>
+            <div class="rights flex-row">
+                <h6 class="text-gray">
+                    Copyright ©2019 All rights reserved
+    
+                </h6>
+            </div>
+            <div class="move-up">
+                <span><i class="fas fa-arrow-circle-up fa-2x"></i></span>
+            </div>
+        </footer>
+    
+    
+    
+    
+        <!-- ----------------------------------------------Footer------------------------------------- -->
+    
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
